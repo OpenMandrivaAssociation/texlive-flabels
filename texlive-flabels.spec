@@ -1,3 +1,9 @@
+# revision 17272
+# category Package
+# catalog-ctan /macros/latex/contrib/flabels
+# catalog-date 2010-02-28 22:13:22 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-flabels
 Version:	1.0
 Release:	1
@@ -47,6 +53,7 @@ the back of files or binders (currently only the special A4
 #- source
 %doc %{_texmfdistdir}/source/latex/flabels/flabels.dtx
 %doc %{_texmfdistdir}/source/latex/flabels/flabels.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ the back of files or binders (currently only the special A4
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
