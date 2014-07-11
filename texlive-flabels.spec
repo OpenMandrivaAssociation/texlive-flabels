@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-flabels
 Version:	1.0
-Release:	7
+Release:	8
 Summary:	Labels for files and folders
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/flabels
