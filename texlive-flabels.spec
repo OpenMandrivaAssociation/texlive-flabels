@@ -1,6 +1,6 @@
 Name:		texlive-flabels
 Version:	17272
-Release:	1
+Release:	2
 Summary:	Labels for files and folders
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/flabels
