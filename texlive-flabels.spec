@@ -3,7 +3,7 @@ Version:	17272
 Release:	2
 Summary:	Labels for files and folders
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/flabels
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/flabels
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/flabels.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/flabels.doc.r%{version}.tar.xz
